@@ -1,0 +1,35 @@
+*{
+	box-sizing:border=box;
+}
+
+body{
+	margin:0;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:14px;
+	background-color:white;
+}
+
+
+.accordion_box{
+	background-color:#e1e1e1;
+
+}
+.active{
+	background-color:#fff;
+
+}
+
+.acc_trigger{
+	position:relative;
+	cursor:pointer;	
+}
+
+.acc_trigger i {
+	position:absolute;
+	right:0;
+}
+
+.acc_container{
+	display:none;
+}
+

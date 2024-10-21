@@ -1,0 +1,43 @@
+*{
+	box-sizing:border=box;
+}
+
+body{
+	margin:0;
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	background-color:white;
+	line-height:1.6;
+}
+
+.tab_navigation{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.tab_navigation li {
+	display:inline-block;
+	background-color: #0a6fc4;
+	color: white;
+    	padding: 5px 15px;
+    	min-width: 100px;
+    	text-align: center;
+	border-radius:5px 5px 0 0;
+	cursor:pointer;
+	transition: all 0.3s ease-in-out;
+}
+.tab_navigation li.active{
+	background: #035091;
+
+}
+
+.tab_container_area{}
+.tab_container{
+	padding: 10px;
+    	color: white;
+    	border-radius: 0 5px 5px 5px;
+	background-color:#035091;
+	display:none;
+}
+
+
